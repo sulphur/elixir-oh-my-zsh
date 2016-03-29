@@ -64,6 +64,7 @@ alias mx='mix xref'
 alias mf='mix format'
 alias mes='mix espec'
 alias mesc='mix espec --cover'
+alias mrtdb='MIX_ENV=test mix do ecto.drop, ecto.create, ecto.migrate'
 
 # Heroku
 alias hri='heroku run "POOL_SIZE=2 iex -S mix"'
