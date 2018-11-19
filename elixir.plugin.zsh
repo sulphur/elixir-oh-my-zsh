@@ -1,5 +1,5 @@
 alias i='iex'
-alias ips='iex -S mix phx.server'
+alias ips='iex -S mix phoenix.server'
 alias ism='iex -S mix'
 alias m='mix'
 alias mab='mix archive.build'
